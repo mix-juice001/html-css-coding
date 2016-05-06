@@ -52,3 +52,8 @@ a:link, a:hover, a:visited, a:active {
     border-radius: 50%;
     vertical-align: -5px;
 }
+
+.item .description {
+    margin: 10px;
+    line-height: 1.5;
+}
