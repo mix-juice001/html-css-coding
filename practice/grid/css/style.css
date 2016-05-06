@@ -71,3 +71,23 @@ a:link, a:hover, a:visited, a:active {
     box-shadow: 0 0 6px -1px rgba(0, 0, 0, 0.3);
     opacity: 0.8;
 }
+
+.item--category__main-dish,
+.item--category__main-dish .category::before {
+    border-color: #FFC0CB;
+}
+
+.item--category__appetiser,
+.item--category__appetiser .category::before {
+    border-color: #76C047;
+}
+
+.item--category__column,
+.item--category__column .category::before {
+    border-color: #FFF100;
+}
+
+.item--category__break-time,
+.item--category__break-time .category::before {
+    border-color: #C1EFFF;
+}
