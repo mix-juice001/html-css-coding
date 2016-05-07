@@ -108,3 +108,19 @@ a:link, a:hover, a:visited, a:active {
 .item-l {
     width: 732px;
 }
+
+.header {
+    padding: 25px 0;
+    border-bottom: none;
+    text-align: center;
+}
+
+.logo {
+    width: 136px;
+    height: 136px;
+    transition: transform 0.3s;
+}
+
+.logo:hover {
+    transform: rotate(360deg);
+}
