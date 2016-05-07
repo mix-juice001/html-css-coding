@@ -81,6 +81,26 @@ a:link, a:hover, a:visited, a:active {
     opacity: 0.8;
 }
 
+.item > a::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    left: 8px;
+    display: block;
+    height:109px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+.item-m > a::before {
+    height:146px;
+}
+
+.item-l > a::before {
+    height: 403px;
+}
+
 .item--category__main-dish,
 .item--category__main-dish .category::before {
     border-color: #FFC0CB;
