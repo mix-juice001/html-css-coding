@@ -91,3 +91,11 @@ a:link, a:hover, a:visited, a:active {
 .item--category__break-time .category::before {
     border-color: #C1EFFF;
 }
+
+.item-m {
+    width:364px;
+}
+
+.item-l {
+    width: 732px;
+}
