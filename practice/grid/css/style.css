@@ -90,8 +90,13 @@ a:link, a:hover, a:visited, a:active {
     display: block;
     height:109px;
     background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s linear;
 }
 
+.item > a:hover::before {
+    opacity: 1;
+}
 
 .item-m > a::before {
     height:146px;
