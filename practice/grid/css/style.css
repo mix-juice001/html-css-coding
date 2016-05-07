@@ -81,20 +81,21 @@ a:link, a:hover, a:visited, a:active {
     opacity: 0.8;
 }
 
-.item > a::before {
+.item > a .image::before {
     content: '';
     position: absolute;
-    top: 8px;
-    right: 8px;
-    left: 8px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
     display: block;
-    height:109px;
+    /*height:109px;*/
     background: rgba(0, 0, 0, 0.5);
     opacity: 0;
     transition: opacity 0.3s linear;
 }
 
-.item > a:hover::before {
+.item > a:hover .image::before {
     opacity: 1;
 }
 
@@ -108,9 +109,10 @@ a:link, a:hover, a:visited, a:active {
 .item > a::after {
     content: 'MORE';
     position: absolute;
-    top: 43.5px;
+    top: 50%;
     left: 150%;
     display: block;
+    margin-top: -19px;
     margin-left: -50px;
     width: 100px;
     padding: 8px;
@@ -139,6 +141,14 @@ a:link, a:hover, a:visited, a:active {
 
 .item {
     overflow: hidden;
+}
+
+.item .image {
+    position: relative;
+}
+
+.item .image img {
+    width: 100%;
 }
 
 .item--category__main-dish,
