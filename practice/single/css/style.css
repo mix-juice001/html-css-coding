@@ -68,3 +68,38 @@ body {
 .button-showy {
     background-color: #f1b400;
 }
+
+.about {
+    padding: 80px 30px;
+    background-color: #fff;
+    color: #333;
+}
+
+.heading {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 15px;
+    margin: 30px 0 15px;
+    letter-spacing: 2px;
+    font-size: 4rem;
+}
+
+.heading::before,
+.heading::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-bottom:1px solid #999;
+}
+
+.heading::before {
+    bottom: 5px;
+    border-bottom:1px solid #999;
+}
+
+.about-text {
+    margin: 30px 0;
+    line-height: 2.5;
+}
