@@ -296,7 +296,7 @@ body {
         padding-top: 60px;
     }
 
-    .site-title::before,
+    .site-title-sub::before,
     .site-title-sub::after {
         display: block;
         width: 80%;
